@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Сапер</string>
+
+    <string name="dialog_win">Вы выиграли!</string>
+    <string name="dialog_lose">Вы проиграли. Попробуйте еще раз?</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="action_restart">Рестарт</string>
+    <string name="action_new_game">Новая игра</string>
+
+    <string name="category_difficulty">Сложность</string>
+    <string name="difficulty_easy">Легко</string>
+    <string name="difficulty_medium">Средне</string>
+    <string name="difficulty_hard">Тяжело</string>
+    <string name="difficulty_custom">Своя</string>
+
+    <string name="category_config">Игровые настройки</string>
+    <string name="config_mines">Мины</string>
+    <string name="config_rows">Высота</string>
+    <string name="config_columns">Ширина</string>
+    <string name="config_safe_first">Безопасный первый ход</string>
+    <string name="action_save_config">Сохранить</string>
+
+    <string name="action_undo">Отмена</string>
+    <string name="action_undo_last">Отменить действие</string>
+    <string name="empty_undo_stack">Нечего отменять!</string>
+</resources>
