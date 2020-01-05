@@ -23,6 +23,6 @@
     <string name="action_save_config">Сохранить</string>
 
     <string name="action_undo">Отмена</string>
-    <string name="action_undo_last">Отменить действие</string>
+    <string name="action_undo_last">Отмена</string>
     <string name="empty_undo_stack">Нечего отменять!</string>
 </resources>

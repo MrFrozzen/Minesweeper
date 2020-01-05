@@ -28,7 +28,7 @@ class BoardAdapter(board: Board, private val size: Float) : BaseAdapter() {
 
             if (displayAll) {
                 if (cell.isMine) {
-                    text = "X"
+                    text = ""
                     setBackgroundResource(R.drawable.mine_square)
                 } else {
                     text = ""
@@ -38,7 +38,7 @@ class BoardAdapter(board: Board, private val size: Float) : BaseAdapter() {
                 when {
                     cell.isRevealed -> {
                         if (cell.isMine) {
-                            text = "X"
+                            text = ""
                             setBackgroundResource(R.drawable.mine_square)
                         } else {
                             val adjacent = board.getAdjacentMines(cell.row, cell.column)
@@ -47,7 +47,7 @@ class BoardAdapter(board: Board, private val size: Float) : BaseAdapter() {
                         }
                     }
                     cell.isFlagged -> {
-                        text = "?"
+                        text = ""
                         setBackgroundResource(R.drawable.flagged_square)
                     }
                     else -> {
